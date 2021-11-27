@@ -1,0 +1,40 @@
+.App {
+    display: flex;
+}
+
+.column {
+    border:1px #ccc solid;
+    flex-grow: 1;
+    margin: 25px;
+    text-align: center;
+}
+
+.card {
+    padding: 25px;
+    display: flex;
+}
+
+.card span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.form-input {
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
+}
+
+.button-add{
+    background-color: blue;
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
+}
+
+.color-index {
+    background-color: #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
+}
